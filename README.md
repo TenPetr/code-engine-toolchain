@@ -1,5 +1,9 @@
 # ![Icon](./.bluemix/clg-experimental-banner.svg) Developing a Code Engine app
 
+
+### Code Engine Classic pipelines link setup 
+https://cloud.ibm.com/devops/setup/deploy?repository=https%3A%2F%2Fgithub.com%2Fopen-toolchain%2Fcode-engine-toolchain&branch=classic
+
 ## How Code Engine deployment works
 IBM Cloud Code Engine provides a platform to unify the deployment of all of your container-based applications. Code Engine helps developers by hiding many of the complex tasks like configuration, dependency management etc. Code Engine simplifies container-based management and enables you to concentrate on writing code. It also makes available many of the features of a serverless platform, such as "scale-to-zero". The application code is stored in source control along with its Dockerfile. If you have not yet created a Code Engine project, the toolchain automatically generates one during deployment. Any code changes detected in the Git repo are automatically built, validated, and deployed into the Code Engine project. For more information, refer to the [Code Engine documentation](https://cloud.ibm.com/docs/codeengine).
 
